@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TuneWave</title>
 	<link rel="stylesheet" href="asset\css\index.css">
+	<link rel="stylesheet" href="asset\css\index-mod.css">
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -23,101 +25,88 @@
 
 <body>
 	<div id="dashboard">
-		<div class="firstbox">
-			<div class="TuneWave">
-				<a href="#">TuneWave</a>
-			</div>
-		</div>
 		<div class="logo">
+			<h1 class="TuneWave">
+				<a href="#">TuneWave</a>
+			</h1>
 			<img src="./asset/images/LOGO.jpg" alt="logo">
 		</div>
 		<div class="sidebar">
-			<div class="sidebar2">
-				<div class="navigation">
-					<div class="section1">
-						<p class="headers">MENU</p>
-						<ul>
-							<li class="hover"><span class="icon"><i class="fa fa-compass"
-										style="font-size: 18px"></i></span>
-								<span class="icon"><a href="#">&nbsp;&nbsp;Explore</a></span>
-							</li>
-							<br>
-							<li class="hover"><span class="icon"><i class="fa fa-film" style="font-size: 18px"></i>
-								</span> <span class="icon"> <a href="#">&nbsp;&nbsp;Genre</a></span>
-							</li>
-							<br>
-							<li class="svg"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18"
-										height="18" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
-										<path
-											d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z" />
-										<path
-											d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z" />
-									</svg> </span> <span class="icon"><a href="#">&nbsp;&nbsp;Album</a></span>
-							</li>
-							<br>
-							<li class="hover"><span class="icon"> <i class="material-icons" style="font-size: 18px;"><i
-											class="fa fa-microphone" aria-hidden="true"></i></i></span>
-								<span><a href="#">&nbsp;&nbsp;Radios</a></span>
-							</li>
-							<br>
-							<li class="hover"><span class="icon"><i class="fa fa-podcast" style="font-size:18px"></i></span>
-								<span><a href="#">&nbsp;&nbsp;Podcasts</a></span>
-							</li>
-						</ul>
-					</div>
-					<div class="section2">
-						<p class="headers">LIBRARY</p>
-						<ul>
-							<li class="svg"><span class="icon"><i><svg xmlns="http://www.w3.org/2000/svg" width="18"
-											height="18" fill="currentColor" class="bi bi-music-note-list"
-											viewBox="0 0 16 16">
-											<path
-												d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
-											<path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
-											<path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z" />
-											<path fill-rule="evenodd"
-												d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
-										</svg></i></span>
-								<span><a href="#">&nbsp;&nbsp;Recent</a></span>
-							</li>
-							<br>
-							<li class="hover"><span class="icon"><i class="fa fa-heart" style="font-size: 18px;"></i>
-								</span>
-								<span><a href="#">&nbsp;&nbsp;Favourites</a></span>
-							</li>
-							<br>
-							<li class="hover"><span class="icon"><i class="fa fa-file" style="font-size: 18px;"></i></span>
-								<span><a href="#">&nbsp;&nbsp;Local</a></span>
-							</li>
-						</ul>
-					</div>
-	
-					<div class="section3">
-						<p class="headers">PLAYLIST</p>
-	
-						<ul>
-							<li class="hover"><span><i class="fa fa-plus" style="font-size: 18px;"></i></span>
-								<span><a href="#">&nbsp;&nbsp;Create New Design</a></span>
-							</li>
-							<br>
-							<li class="svg"><a href="darkmode.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="18"
-											height="18" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
-											<path
-												d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
-										</svg></span>
-									<span><a href="darkmode.html" target="_blank">&nbsp;&nbsp;Select Mode</a></span></a>
-							</li>
-							<br>
-						</ul>
-					</div>
-				</div>
+			
+			<div class=" section section1">
+				<p class="headers">MENU</p>
+				<ul>
+					<li class="hover"><span class="icon"><i class="fa fa-compass"
+								style="font-size: 18px"></i></span>
+						<span class="icon"><a href="#">&nbsp;&nbsp;Explore</a></span>
+					</li>
+					<li class="hover"><span class="icon"><i class="fa fa-film" style="font-size: 18px"></i>
+						</span> <span class="icon"> <a href="#">&nbsp;&nbsp;Genre</a></span>
+					</li>
+					<li class="svg"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+								height="18" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+								<path
+									d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z" />
+								<path
+									d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z" />
+							</svg> </span> <span class="icon"><a href="#">&nbsp;&nbsp;Album</a></span>
+					</li>
+					<li class="hover"><span class="icon"> <i class="material-icons" style="font-size: 18px;"><i
+									class="fa fa-microphone" aria-hidden="true"></i></i></span>
+						<span><a href="#">&nbsp;&nbsp;Radios</a></span>
+					</li>
+					<li class="hover"><span class="icon"><i class="fa fa-podcast" style="font-size:18px"></i></span>
+						<span><a href="#">&nbsp;&nbsp;Podcasts</a></span>
+					</li>
+				</ul>
+			</div>
+			<div class=" section section2">
+				<p class="headers">LIBRARY</p>
+				<ul>
+					<li class="svg"><span class="icon"><i><svg xmlns="http://www.w3.org/2000/svg" width="18"
+									height="18" fill="currentColor" class="bi bi-music-note-list"
+									viewBox="0 0 16 16">
+									<path
+										d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+									<path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
+									<path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z" />
+									<path fill-rule="evenodd"
+										d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+								</svg></i></span>
+						<span><a href="#">&nbsp;&nbsp;Recent</a></span>
+					</li>
+					<li class="hover"><span class="icon"><i class="fa fa-heart" style="font-size: 18px;"></i>
+						</span>
+						<span><a href="#">&nbsp;&nbsp;Favourites</a></span>
+					</li>
+					<li class="hover"><span class="icon"><i class="fa fa-file" style="font-size: 18px;"></i></span>
+						<span><a href="#">&nbsp;&nbsp;Local</a></span>
+					</li>
+				</ul>
+			</div>
+
+			<div class=" section section3">
+				<p class="headers">PLAYLIST</p>
+
+				<ul>
+					<li class="hover"><span><i class="fa fa-plus" style="font-size: 18px;"></i></span>
+						<span><a href="#">&nbsp;&nbsp;Create New Design</a></span>
+					</li>
+					<li class="svg"><a href="darkmode.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="18"
+									height="18" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+									<path
+										d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+								</svg></span>
+							<span><a href="darkmode.html" target="_blank">&nbsp;&nbsp;Select Mode</a></span></a>
+					</li>
+				</ul>
 			</div>
 	
 	
 		</div>
 	</div>
 
-	<div id="main">
+	<!-- <div id="main">
 		<div class="search-bar">
 			<input type="text" placeholder="Search">
 		</div>
@@ -484,64 +473,76 @@
 			<img src="asset\images\muna.png" alt="">
 		</div>
 
-	</div>	
+	</div>	 -->
 
-	<div id="player">		
-		<div class="nav-bar">
-			<div class="mil">
-				<img src="asset\images\MIL-Deluxe-art-768x768.jpeg" alt="">
-			</div>
-	
-			<div class="now">
-				<a href="madeinlagos.html">Reckless
-					<br>
-					Wizkid</a>
-			</div>
-			<div class="next">
-				<ion-icon name="play-skip-forward-circle-outline"></ion-icon>
-			</div>
-			<div class="previous">
-				<ion-icon name="play-skip-back-circle-outline"></ion-icon>
-			</div>
-			<div class="play">
-				<ion-icon name="play-circle-outline"></ion-icon>
-			</div>
-			<div class="shuffle">
-				<ion-icon name="shuffle-outline"></ion-icon>
-			</div>
-			<div class="repeat">
-				<ion-icon name="repeat-outline"></ion-icon>
-			</div>
-			<div class="volume">
-				<ion-icon name="volume-high-outline"></ion-icon>
-			</div>
-			<div class="queue">
-				<ion-icon name="list-outline"></ion-icon>
-			</div>
-			<div class="flove">
-				<ion-icon name="heart-outline"></ion-icon>
-			</div>
-			<div class="progress-bar1">
-			</div>
-			<div class="progress-bar2">
-			</div>
+	<div class="player">
+		<div class="container">
+
 			<div class="up">
 				<a href="madeinlagos.html" target="_blank"><ion-icon name="chevron-up-outline"></ion-icon></a>
 			</div>
-			<div class="round">
-				<ion-icon name="ellipse"></ion-icon>
+			<div class="fav">
+				<ion-icon name="heart-outline"></ion-icon>
 			</div>
-			<div class="round1">
-				<ion-icon name="ellipse"></ion-icon>
-			</div>
-	
-			<div class="one">
-				0.10
-			</div>
+			<div id="now-playing">
+				<span class="mil">
+					<img src="asset\images\MIL-Deluxe-art-768x768.jpeg" alt="">
+					<div class="now">
+						<a href="madeinlagos.html">
+							<p>
+								Reckless
+							</p>
+							<p>
+								Wizkid
+							</p>
+							
+						</a>
+					</div>
+				</span>
 		
-			<div class="two">
-				-4:00
+				<!-- <div class="controls">
+					<div class="next">
+						<ion-icon name="play-skip-forward-circle-outline"></ion-icon>
+					</div>
+					<div class="previous">
+						<ion-icon name="play-skip-back-circle-outline"></ion-icon>
+					</div>
+					<div class="play">
+						<ion-icon name="play-circle-outline"></ion-icon>
+					</div>
+					<div class="shuffle">
+						<ion-icon name="shuffle-outline"></ion-icon>
+					</div>
+					<div class="repeat">
+						<ion-icon name="repeat-outline"></ion-icon>
+					</div>
+					
+					
+					<div class="progress-bar1"></div>
+					
+					<div class="one">
+						0.10
+					</div>
+				
+					<div class="two">
+						-4:00
+					</div>
+					<div class="round">
+						<ion-icon name="ellipse"></ion-icon>
+					</div>
+					<div class="round1">
+						<ion-icon name="ellipse"></ion-icon>
+					</div>
+				</div> -->
 			</div>
+
+			<div class="volume">
+				<ion-icon name="volume-high-outline"></ion-icon>
+			</div>
+			<!-- <input type="range" id="points" name="points" min="0" max="10"> -->
+			<!-- <div class="queue">
+				<ion-icon name="list-outline"></ion-icon>
+			</div> -->
 		</div>
 	</div>
 

@@ -1,50 +1,30 @@
 body {
   background-color: black;
 }
-.firstbox {
-  width: 200px;
-  position: fixed;
-  height: 100px;
-  background-color: #060607;
-  margin-top: 0;
-}
 
-.firstbox .TuneWave a {
-  position: absolute;
-  left: 55px;
+
+.logo a {
   font-size: 17px;
-  padding-top: 10px;
 }
 .logo {
-  position: fixed;
+  background-color: #060607;
+  margin: 0 auto;
 }
 
 .logo img {
-  position: absolute;
-  display: block;
-  padding-bottom: 6px;
-  border-radius: 600px;
-  max-width: 60px;
-  left: 65px;
-  top: 38px;
+  max-width: 30%;
+  margin: 5px auto;
+  display: flex;
+  border-radius: 100%;
+  border: 2px #8f8d8d solid;
 }
 .sidebar {
-  position: fixed;
-}
-.sidebar2 {
-  height: 400px;
-  position: absolute;
-  width: 200px;
-  overflow: hidden;
-  background-image: linear-gradient(180deg, #000000, #232327);
-  font-family: "DM Serif Display", serif;
-  font-family: "Montserrat", sans-serif; 
+  font-family: "Montserrat", sans-serif;
   color: rgb(190, 186, 186);
-  margin-top: 50px;
   padding-bottom: 100px;
-  padding-top: 8px;
-  top: 50px;
 }
+
+
 
 a {
   text-decoration: none;
@@ -57,24 +37,9 @@ a {
 .svg:hover {
   background-color: rgb(254, 254, 255);
 }
-
-.section1:hover {
-  border: solid black 0.5px;
-  width: 200px;
-}
-.section2:hover {
-  border: solid black 0.5px;
-  width: 200px;
-}
-.section3:hover {
-  border: solid black 0.5px;
-  width: 200px;
-}
-
+/* 
 .section1 {
-  margin-top: 1px;
-  border-top: solid black 5px;
-  border-radius: 6px;
+  margin: 1px auto;
 }
 
 .section2 {
@@ -83,11 +48,10 @@ a {
 
 .section3 {
   margin-top: 30px;
-}
+} */
 
 .headers {
   text-align: center;
-  margin-right: 70px;
 }
 
 .sidebar ul li {
@@ -702,19 +666,24 @@ input {
   border-radius: 6px;
 }
 
-.nav-bar {
+.player {
   color: rgb(129, 132, 134);
   background-color: #09090c;
-  border-radius: 2px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  top: 600px;
-  margin-top: 0px;
+  /* border-radius: 2px; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* left: 0; */
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:10%;
+  display: inline-flex;
+  /* top: 650px; */
+  /* margin-top: 0px; */
 }
+
+
 
 .next {
   color: rgb(138, 135, 135);
@@ -726,25 +695,25 @@ input {
 .next:hover {
   background-color: rgb(77, 88, 88);
 }
-.nav-bar .previous:hover {
+.player .previous:hover {
   background-color: rgb(77, 88, 88);
 }
 
-.nav-bar .repeat:hover {
+.player .repeat:hover {
   background-color: rgb(77, 88, 88);
 }
 
-.nav-bar .shuffle:hover {
+.player .shuffle:hover {
   background-color: rgb(77, 88, 88);
 }
 
-.nav-bar .volume:hover {
+.player .volume:hover {
   background-color: rgb(77, 88, 88);
 }
-.nav-bar .play:hover {
+.player .play:hover {
   background-color: rgb(77, 88, 88);
 }
-.nav-bar .queue:hover {
+.player .queue:hover {
   background-color: rgb(77, 88, 88);
 }
 
@@ -794,15 +763,13 @@ input {
   margin-left: 90%;
   top: 17px;
 }
-.flove {
+.fav {
   color: rgb(138, 135, 135);
   font-size: 23px;
-  position: absolute;
-  left:240px;
-  top: 16px;
+  margin: 0 8%;
 }
 
-.flove:hover {
+.fav:hover {
   background-color: rgb(77, 88, 88);
 }
 .progress-bar1 {
@@ -827,28 +794,29 @@ input {
 .up {
   color: rgb(138, 135, 135);
   font-size: 23px;
-  position: absolute;
-  left: 180px;
-  top: 16px;
 }
 .up:hover {
   background-color: rgb(77, 88, 88);
 }
 
-.mil img{
-  position: absolute;
-  left:300px;
-  top: 9px;
-  max-width: 40px;
+.mil{
+  display: inline-flex;
+  width: inherit,
 }
 
-.now a{
+.mil img{
+
+  max-width: 5%;
+}
+
+/* .now a{
   text-decoration: none;
   color: rgb(206, 204, 204);
   font-size: 10px;
-  position: absolute;
-  left:400px;
-  top: 16px;
+} */
+
+.now-playing{
+  display: block;
 }
 
 .audio{
