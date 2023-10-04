@@ -1,0 +1,222 @@
+body {
+  background:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.setting {
+  position: fixed;
+  text-align: center;
+  color: aliceblue;
+  width: 1367px;
+  height: 50px;
+  background-color: rgb(8, 8, 8);
+  padding-top: 30px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 1px;
+  right: 1px;
+}
+
+.cover {
+  position: fixed;
+  left: 600px;
+  top: 110px;
+}
+.cover img {
+  max-width: 150px;
+  border-radius: 700px;
+}
+
+.kell a {
+  position: fixed;
+  top: 220px;
+  color: aliceblue;
+  left: 665px;
+}
+.box {
+  position: fixed;
+  background-color: rgb(12, 12, 12);
+  top: 260px;
+  height: 360px;
+  border-radius: 30px;
+  width: 100%;
+  right: 1px;
+  overflow-y: scroll;
+  over
+}
+.account {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.account:hover {
+  background-color: rgb(20, 20, 20);
+}
+.data {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.data:hover {
+  background-color: rgb(20, 20, 20);
+}
+.languages {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.languages:hover {
+  background-color: rgb(20, 20, 20);
+}
+.playback {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.playback:hover {
+  background-color: rgb(20, 20, 20);
+}
+.explicit-content {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.explicit-content:hover {
+  background-color: rgb(20, 20, 20);
+}
+.devices {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.devices:hover {
+  background-color: rgb(20, 20, 20);
+}
+.audio {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.audio:hover {
+  background-color: rgb(20, 20, 20);
+}
+.video {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.video:hover {
+  background-color: rgb(20, 20, 20);
+}
+.storage {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.storage:hover {
+  background-color: rgb(20, 20, 20);
+}
+.Notifications {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.Notifications:hover {
+  background-color: rgb(20, 20, 20);
+}
+.privacy {
+  color: aliceblue;
+  top: 15px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.privacy:hover {
+  background-color: rgb(20, 20, 20);
+}
+.logout {
+  color: rgb(0, 0, 0);
+  top: 15px;
+  width: 10%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 30px;
+  margin-left: 610px;
+  margin-bottom: 20px;
+}
+.logout:hover {
+  background-color: rgb(156, 156, 156);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 7px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 225, 255); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 118, 133); 
+  }
