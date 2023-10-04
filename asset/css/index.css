@@ -888,16 +888,14 @@ input {
 
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   #dashboard {
     display: none;
   }
   .the-image-intro img {
     position: unset;
-    /* left: 260px; */
-    /* height: 200px; */
-    /* border-radius: 30px; */
+    
     top: 70px;
     width: 70%;
-}
-}
+} */
+/* } */
