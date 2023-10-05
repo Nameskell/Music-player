@@ -688,9 +688,7 @@ input {
 .next {
   color: rgb(138, 135, 135);
   font-size: 20px;
-  position: absolute;
-  margin-left: 52%;
-  top: 12px;
+  
 }
 .next:hover {
   background-color: rgb(77, 88, 88);
@@ -720,53 +718,42 @@ input {
 .previous {
   color: rgb(138, 135, 135);
   font-size: 20px;
-  position: absolute;
-  margin-left: 46%;
-  top: 12px;
+  
 }
 
 .play {
   color: rgb(138, 135, 135);
   font-size: 25px;
-  position: absolute;
-  margin-left: 49%;
-  top: 10px;
+ 
 }
 
 .shuffle {
   color: rgb(138, 135, 135);
   font-size: 20px;
-  position: absolute;
-  margin-left: 42%;
-  top: 17px;
+  
 }
 
 .repeat {
   color: rgb(138, 135, 135);
   font-size: 20px;
-  position: absolute;
-  margin-left: 56%;
-  top: 17px;
 }
 .volume {
   color: rgb(138, 135, 135);
   font-size: 20px;
-  position: absolute;
-  margin-left: 80%;
-  top: 17px;
 }
 
 .queue {
   color: rgb(138, 135, 135);
   font-size: 25px;
-  position: absolute;
-  margin-left: 90%;
-  top: 17px;
+ 
 }
 .fav {
   color: rgb(138, 135, 135);
   font-size: 23px;
-  margin: 0 8%;
+  /* margin: 0 8%; */
+  text-align: center;
+  margin: auto 0;
+  padding: 2% !important;
 }
 
 .fav:hover {
@@ -801,12 +788,11 @@ input {
 
 .mil{
   display: inline-flex;
-  width: inherit,
 }
 
 .mil img{
-
-  max-width: 5%;
+  max-width: 5.5%;
+  margin: auto 0;
 }
 
 /* .now a{
