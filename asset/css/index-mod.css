@@ -14,7 +14,8 @@ body{
 }
 #dashboard{
 	height: 100vh;
-    width: 20.5%;
+	min-width: 20%;
+    max-width: 21%;
 	background-image: linear-gradient(180deg, #000000, #232327);
 	overflow-y: scroll;
 }
@@ -334,7 +335,10 @@ input[type="range"] {
 #main{
 	overflow-y: scroll;
 	width: 100%;
-
+	overflow-x: hidden;
+}
+.main-content{
+	padding: 0 5%;
 }
 .nav{
 	width: auto;
@@ -363,9 +367,29 @@ header{
 }
 .nav-links li, .header-extra li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 15px;
 }
-@media screen and (max-width: 800px) {
+
+
+.album-content {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+  
+	background-color: #121213;
+	overflow-x: scroll;
+	display: flex;
+  }
+  .album-add{
+	height: inherit;
+	display: flex;
+	padding: 0 9px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #121213;
+  }
+
+@media screen and (max-width: 900px) {
 	/* Select the element with the id dashboard */
 	#dashboard {
 	  /* Set the display property to none to hide the element */
