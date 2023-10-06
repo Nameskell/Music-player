@@ -30,7 +30,7 @@ h1, ul, p{
 	padding: 10px;
 }
 .container {
-	/* width: 75%; */
+	width: inherit;
 	display: flex;
 	margin: 0 auto;
 	/* height: calc(100% - 43px); */
@@ -91,7 +91,7 @@ h1, ul, p{
 
 .controls div{
 	margin: 0 auto;
-	font-size: x-large;
+	font-size: larger;
 }
 
 .now{
@@ -284,3 +284,91 @@ input[type="range"]:active::-moz-range-progress {
 input[type="range"]:disabled::-moz-range-thumb {
 	cursor: not-allowed;
 }
+
+
+
+/* Element | http://127.0.0.1:5500/ */
+
+  
+  /* index.css | http://127.0.0.1:5500/asset/css/index.css */
+  
+  .mil img {
+	/* max-width: 5.5%; */
+	/* max-width: inherit; */
+	height: 100%;
+	display: block;
+	margin: auto auto;
+  }
+  .mil {
+	display: contents;
+  }
+  
+/* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css */
+
+input[type="range"] {
+	/* --thumb-height: 1.125em; */
+	--thumb-height: 0.5em;
+  }
+  
+  .flex-player {
+	height: min-content;
+	margin: auto;
+  }
+
+/* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css */
+
+.mil img {
+	/* height: 100%; */
+	height: 77%;
+  }
+  
+  /* index.css | http://127.0.0.1:5500/asset/css/index.css */
+  
+  .fav {
+	/* font-size: 23px; */
+	/* padding: 2% !important; */
+	font-size: 21px;
+	padding: 0 4% !important;
+  }
+
+#main{
+	overflow-y: scroll;
+	width: 100%;
+
+}
+.nav{
+	width: auto;
+	padding: 5px 0;
+	display: flex;
+}
+.main{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+}
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	/* background-color: #24252A; */
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%
+}
+.nav-links, .header-extra{
+	list-style: none;
+}
+.nav-links li, .header-extra li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+@media screen and (max-width: 800px) {
+	/* Select the element with the id dashboard */
+	#dashboard {
+	  /* Set the display property to none to hide the element */
+	  display: none;
+	}
+  }

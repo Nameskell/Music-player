@@ -60,15 +60,14 @@ a {
 }
 
 .search-bar {
-  position: absolute;
-  right: 400px;
-  top: 30px;
   background-color: #232327;
   width: 30%;
   height: 25px;
   border-radius: 6px;
+  padding: 2%;
 }
-input {
+/* This is just hard core racist, likw why you gat  to pick on all of them */
+/* input {
   position: relative;
   background-color: #232327;
   width: 400px;
@@ -76,17 +75,15 @@ input {
   border-radius: 5px;
   border: #232327;
   color: #cacaca;
-}
+} */
 
-.search-bar input{
-    background-color: #232327;
-    width: 100%;
-    border-radius: 5px;
-    border: #232327;
-    font-size: medium;
-    height: inherit;
-    color: #cacaca;
-    font-weight: 700;
+.search-bar{
+  background-color: #232327;
+  width: 50%;
+  border-radius: 6px;
+  padding: 20px 3%;
+  color: white;
+  border: none;
 }
 ::placeholder {
   position: absolute;
@@ -113,15 +110,10 @@ input {
 }
 
 .head-text {
-  position: absolute;
-  top: 36px;
-  left: 300px;
+ 
   font-size: larger;
 }
 .setting {
-  position: absolute;
-  top: 34px;
-  right: 180px;
   font-size: 20px;
   color: rgb(162, 171, 179);
 }
@@ -134,9 +126,6 @@ input {
 }
 
 .profile {
-  position: absolute;
-  top: 33px;
-  right: 40px;
   font-size: 23px;
   color: rgb(162, 171, 179);
 }
@@ -758,7 +747,7 @@ input {
 }
 
 .fav:hover {
-  background-color: rgb(77, 88, 88);
+  color: rgb(134, 157, 157);
 }
 .progress-bar1 {
   height: 4px;
@@ -791,10 +780,6 @@ input {
   display: inline-flex;
 }
 
-.mil img{
-  max-width: 5.5%;
-  margin: auto 0;
-}
 
 /* .now a{
   text-decoration: none;
