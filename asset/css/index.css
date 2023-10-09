@@ -94,12 +94,13 @@ a {
     rgba(32, 32, 43, 0.877)
   );
   height: 300px;
+  border-radius: inherit;
 }
 .jumbotron img {
-  width: 1010px;
-  height: 200px;
-  border-radius: 30px;
-  top: 70px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: inherit;
 }
 
 .head-text {
