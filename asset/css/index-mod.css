@@ -789,6 +789,24 @@ color: white;
   }
   
 
+/* index-mod.css | file:///C:/Users/Ayobamidele%20Ewetuga/Documents/Music-player/asset/css/index-mod.css */
+
+.album-add {
+	width: 20%;
+  }
+  
+  .album-content {
+	/* width: 100%; */
+	width: 195%;
+  }
+  
+  /* Element | file:///C:/Users/Ayobamidele%20Ewetuga/Documents/Music-player/index.html */
+  
+  .icont {
+	/* margin: auto 0; */
+	margin: auto auto;
+  }
+  
 /* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css */
 /* for future case */
 /* .jumbotron {
@@ -805,12 +823,71 @@ color: white;
 	width: 100%;
   } */
   
+
+/* index-mod.css | file:///C:/Users/Ayobamidele%20Ewetuga/Documents/Music-player/asset/css/index-mod.css */
+
+.album-add {
+	width: 20%;
+  }
+  
+  .album-content {
+	/* width: 100%; */
+	width: 195%;
+  }
+  
+  .fav {
+	/* font-size: 21px; */
+	/* padding: 0 4% !important; */
+	padding: 0 3% !important;
+  }
+  
+  .mil img {
+	/* height: 77%; */
+	height: 49%;
+  }
+  
+  /* Element | file:///C:/Users/Ayobamidele%20Ewetuga/Documents/Music-player/index.html */
+  
+  .icont {
+	/* margin: auto 0; */
+	margin: auto auto;
+  }
+
+#main .logo > img:nth-child(2) {
+  width: 7%;
+  margin-left: 0;
+}
+
+/* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css?_cacheOverride=1697027870150 */
+
+#main.TuneWave {
+  /* padding: 5px 0; */
+  /* text-align: center; */
+  margin: 3% auto;
+  display: flex;
+}
+
+#main .logo {
+  height: auto;
+  display: none;
+  justify-content: center;
+}
+
+/* Element | http://127.0.0.1:5500/ */
+
+#main .TuneWave > a:nth-child(1) {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 900px) {
 	/* Select the element with the id dashboard */
 	#dashboard {
 	  /* Set the display property to none to hide the element */
 	  display: none;
 	}
+	#main .logo{
+		display: flex;
+	}  
 	.menu + .main-menu {
 		width:0;
 		  overflow:hidden;

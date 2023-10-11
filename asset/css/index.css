@@ -135,7 +135,7 @@ a {
 }
 
 .cover{
-  margin: auto 0;
+  /* margin: auto 0; */
   padding: 10px;
 }
 .cover img {
@@ -186,9 +186,10 @@ a {
 }
 
 .cover img {
-  max-width: 150px;
-  
-  border-radius: 80px;
+  width: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  height: 150px;
 }
 
 .cover-text {
