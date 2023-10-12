@@ -1,50 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&family=Varela+Round&display=swap');
 
 #slider {
 	text-align: center;
+	border-radius: inherit;
  }
  #slider input[type=radio] {
-	display: none;
+	display: block;
+	border-radius: inherit;
  }
  #slider label {
 	cursor:pointer;
 	text-decoration: none;
+	border-radius: inherit;
  }
  #slides {	
 	background: #fff;
+	border-radius: inherit;
  }
  #overflow {
 	width: 100%;
 	overflow: hidden;
+	border-radius: inherit;
  }
  #slide1:checked ~ #slides .inner {
 	margin-left: 0;
+	border-radius: inherit;
  }
  #slide2:checked ~ #slides .inner {
 	margin-left: -100%;
+	border-radius: inherit;
  }
  #slide3:checked ~ #slides .inner {
 	margin-left: -200%;
+	border-radius: inherit;
  }
 
  #slides .inner {
-	transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: margin-left 2s cubic-bezier(0.770, 0.000, 0.175, 1.000);
 	width: 400%;
 	height: 300px;
+	border-radius: inherit;
  }
  #slides .slide {
 	width: 25%;
 	float:left;
 	display: flex;
 	justify-content: left;
-	align-items: left;
 	height: 100%;
 	color: #fff;
+	border-radius: inherit;
  }
  #slides div{
 	background-size: cover;
   	background-repeat: no-repeat;
+	  border-radius: inherit;
  }
  .slide-content{
 	margin: auto 0;
@@ -52,7 +62,7 @@
  }
  #controls {
 	margin: -180px 0 0 0;
-	
+	border-radius: inherit;
  }
  #controls label {
 	transition: opacity 0.2s ease-out;
@@ -60,6 +70,7 @@
 	width: 50px;
 	height: 50px;
 	opacity: .4;
+	
  }
  #controls label:hover {
 	opacity: 1;
@@ -68,19 +79,19 @@
  #slide2:checked ~ #controls label:nth-child(3),
  #slide3:checked ~ #controls label:nth-child(4),
  #slide4:checked ~ #controls label:nth-child(1) {
-	background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
 	float:right;
 	margin: 0 -50px 0 0;
 	display: block;
+	border-radius: inherit;
  }
  #slide1:checked ~ #controls label:nth-last-child(2),
  #slide2:checked ~ #controls label:nth-last-child(3),
  #slide3:checked ~ #controls label:nth-last-child(4),
  #slide4:checked ~ #controls label:nth-last-child(1) {
-	background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
 	float:left;
 	margin: 0 0 0 -50px;
 	display: block;
+	border-radius: inherit;
  }
  #bullets {
 	margin: 150px 0 0;
@@ -257,6 +268,8 @@ h1, ul, p{
 .TuneWave{
 	padding: 5px 0;
 	text-align: center;
+	color: #ffff !important;
+	margin: 0 auto;
 }
 .section ul li{
 	padding: 10px;
@@ -269,6 +282,7 @@ h1, ul, p{
 }
 .mil{
 	padding: 5px;
+	font-family: 'Caveat', cursive;
 }
 
 #player-range{
@@ -326,7 +340,11 @@ h1, ul, p{
 }
 
 .now{
-	margin: auto 6px;
+	margin: auto;
+	font-size: x-small;
+	width: 100%;
+	display: grid;
+  text-align: center;
 }
 #now-playing{
 	height: fit-content;
@@ -528,7 +546,7 @@ input[type="range"]:disabled::-moz-range-thumb {
 	/* max-width: inherit; */
 	height: 100%;
 	display: block;
-	margin: auto auto;
+	margin: auto 0;
   }
   .mil {
 	display: contents;
@@ -566,7 +584,26 @@ input[type="range"] {
 	overflow-y: scroll;
 	width: 100%;
 	overflow-x: hidden;
-}
+	background-color: #e5e5f7;
+	/* opacity: 0.8;
+	background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 ); */
+	background: linear-gradient(-45deg, #e6b7a9, #b38e9d, #a7cad7, #aee3d7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
 .main-content{
 	padding: 0 5%;
 	padding-bottom: 10%;
@@ -751,7 +788,10 @@ color: white;
   .jumbotron {
 	height: 300px;
 	/* height: 36vh; */
-	margin-bottom: 10%;
+	
+	margin-bottom: 5%;
+border-radius: 17px;
+background-color: transparent;
   }
   
   /* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css */
@@ -928,7 +968,6 @@ color: white;
 	float: left;
 	display: flex;
 	justify-content: left;
-	align-items: left;
 	height: 100%;
 	color: #fff;
   }
@@ -1032,7 +1071,7 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	height: 26px;
 	width: 32px;
 	position: absolute;
-	top: 17px;
+	top: 8px;
 	left: 20px;
 	z-index: 2;
 	display: none;
@@ -1146,9 +1185,15 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	margin-right: 21px;
 	}
 	
+.plus-outline-icon{
+	background: url('https://api.iconify.design/mdi/plus-circle-outline.svg?color=white') no-repeat center center / contain;
+	content: url('https://api.iconify.design/mdi/plus-circle-outline.svg?color=white');
+	width: 60%;
+height: auto;
+margin: 0 auto;
+}
 
-
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
 	/* Select the element with the id dashboard */
 	#dashboard {
 	  /* Set the display property to none to hide the element */
@@ -1156,6 +1201,7 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	}
 	#main .logo{
 		display: flex;
+		color: #ffff;
 	}  
 	.navbar .menu-items {
 		display: flex;
@@ -1173,11 +1219,6 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	  .nav-container .hamburger-lines .line {
 		display: block;
 	  }
-	  .search-bar{
-		position: absolute;
-		top: 10px;
-		left: 65px;
-	  }
 
 
 /* index-mod.css | http://127.0.0.1:5500/asset/css/index-mod.css */
@@ -1186,7 +1227,7 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	width: 36px;
 	margin-right: 21px;
 	position: absolute;
-  top: 10px;
+  top: 0px;
   right: 0px;
   }
   
@@ -1198,10 +1239,12 @@ div.slide:nth-child(1) > div:nth-child(1) > p:nth-child(4) {
 	height: 60px;
   }
   
-  /* index.css | http://127.0.0.1:5500/asset/css/index.css?_cacheOverride=1697055159500 */
-  
-  .search-bar {
-	margin: 0;
   }
-  
+
+/* Element | http://127.0.0.1:5500/index.html# */
+
+#slider, #slides, .jumbotron , .inner{
+	background-color: transparent;
+	background: transparent;
+
   }
