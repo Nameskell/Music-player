@@ -1248,3 +1248,6 @@ margin: 0 auto;
 	background: transparent;
 
   }
+#controls label{
+	display: none !important;
+}
